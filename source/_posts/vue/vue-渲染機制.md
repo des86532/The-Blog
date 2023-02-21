@@ -44,7 +44,7 @@ tags:
 2. 掛載:  渲染器執行 render functions，產生 `virtual DOM tree`，再根據 `virtual DOM tree` 產生 `actual DOM nodes`，這個步驟會追蹤所有響應式依賴，響應式依賴有改變時就會觸發此步驟，稱為 `reactive effect`
 3. 更新:  依賴發生改變時(觸發`reactive effect`)，會重新產生新的 `virtual DOM tree`，並與舊的 `virtual DOM tree` 比對，將需要更新的部分更新到 `actual DOM`
 
-![[assets/render-pipeline.03805016.png]]
+![[vue-渲染機制/render-pipeline.03805016.png]]
 ### 虛擬 DOM
 
 vnode 組成虛擬 DOM 樹，vnode 如下:
@@ -145,7 +145,7 @@ div (block root)
 
 ### 全局函數訪問
 
-![[assets/全局訪問函數示例.png]]
+![[vue-渲染機制/全局訪問函數示例.png]]
 
 可在模板中直接被訪問的全局函數
 1. Infinity

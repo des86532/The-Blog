@@ -6,7 +6,6 @@ categories:
     - CSS
 tags:
     - css
-    - css reset
 ---
 
 瀏覽器會有預設margin，為了讓網頁排版可以全部按照我們的程式碼執行，會在CSS檔案的最上方加入CSS Reset，讓這些瀏覽器預設的樣式歸零

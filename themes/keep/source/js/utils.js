@@ -452,7 +452,7 @@ KEEP.initUtils = () => {
   KEEP.utils.zoomInImage()
 
   // set how long age in home article block
-  KEEP.utils.setHowLongAgoInHome()
+  // KEEP.utils.setHowLongAgoInHome()
 
   // insert tooltip content dom
   KEEP.utils.insertTooltipContent()

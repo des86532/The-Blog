@@ -6,6 +6,7 @@ categories:
     - Vue
 tags:
     - vue
+    - javascript
 ---
 
 ## Vue2 缺點
@@ -177,5 +178,3 @@ div (block root)
 24. BigInt
 
 >其他的可以透過 `app.config.globalProperties 設定，可以在模板中全局訪問
-
-#vue

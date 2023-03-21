@@ -105,6 +105,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: keep
 
+# sitemap
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
